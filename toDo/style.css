@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-boxd;
+}
+/* In this project. I tried to not use grid template option. Because of this method I've already faced with some annoying problems. But this way 
+I made much more stable website. */
+body{
+  font-size: large;
+  font-family: sans-serif;
+  background-color: rgb(67, 96, 169);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Some css codes for navigation bar */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.navbar a{
+  color: rgb(198, 197, 197);
+  text-decoration: none;
+}
+
+.links:first-child{
+  color: rgb(8, 166, 239);
+}
+
+h1{
+  font-size: 60px;
+  color: white;
+}
+
+h2{
+  margin-top: 10px;
+  color: rgb(151, 161, 204);
+}
+
+.links{
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  border: 2px;
+}
+
+.content{
+  margin-top: 40px;
+  display: flex;
+}
+
+.leftcontent{
+  margin: auto;
+}
+
+.buttons{
+  margin-top: 60px;
+}
+
+/* footer part */
+footer{
+  background-color: white;
+  height: 120px;
+  margin-top: auto;
+  text-align: center;
+  border-top-left-radius: 120px;
+  border-top-right-radius: 120px;
+}
+
+/* Buton styles starts here */
+.getStarted{
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.getStarted:hover,
+.getStarted:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.getStarted:hover {
+  transform: translateY(-1px);
+}
+
+.getStarted:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+.watchVideo{
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.watchVideo:hover,
+.watchVideo:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.watchVideo:hover {
+  transform: translateY(-1px);
+}
+
+.watchVideo:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
